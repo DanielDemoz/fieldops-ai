@@ -124,8 +124,7 @@ fieldops-ai/
 
 ## Documentation
 
-- [Quick Start Guide](QUICKSTART.md)
-- [Deployment Guide](DEPLOYMENT.md)
+All setup instructions are included in the Getting Started section above.
 
 ## Development
 
