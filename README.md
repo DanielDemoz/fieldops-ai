@@ -6,9 +6,11 @@ A comprehensive field service management platform designed for small to medium-s
 
 **View the client demonstration page:**
 
-### Option 1: View via GitHub Pages (Recommended)
-If GitHub Pages is enabled, visit:
-- **Demo Site:** `https://danieldemoz.github.io/fieldops-ai/` (or your GitHub Pages URL)
+### Option 1: View Interactive Demo via GitHub Pages (Recommended)
+Once GitHub Pages is enabled, visit:
+- **Interactive Demo:** `https://danieldemoz.github.io/fieldops-ai/demo.html`
+
+This interactive demo replicates the Streamlit dashboard experience with live charts, job scheduling, crew management, inventory tracking, financials, and analytics - all running directly in your browser!
 
 ### Option 2: Download and Open Locally
 1. Click on `index.html` in the repository
