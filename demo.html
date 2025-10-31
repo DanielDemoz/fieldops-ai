@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FieldOps AI - Interactive Demo</title>
+    <title>FieldOps AI - Interactive Demo | Brukd Consultancy</title>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <style>
         * {
@@ -33,7 +33,7 @@
 
         .sidebar h1 {
             font-size: 24px;
-            color: #ff4b4b;
+            color: #2563eb;
             margin-bottom: 10px;
         }
 
@@ -67,6 +67,17 @@
             color: #fff;
             font-size: 14px;
             margin-bottom: 8px;
+        }
+
+        .company-info .badge {
+            display: inline-block;
+            background: #1e40af;
+            color: #fff;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 10px;
+            margin-top: 8px;
+            margin-right: 5px;
         }
 
         .company-info p {
@@ -159,8 +170,8 @@
         }
 
         .tab.active {
-            color: #ff4b4b;
-            border-bottom-color: #ff4b4b;
+            color: #2563eb;
+            border-bottom-color: #2563eb;
         }
 
         .tab-content {
@@ -200,7 +211,7 @@
             background: #262730;
             padding: 15px;
             border-radius: 6px;
-            border-left: 3px solid #ff4b4b;
+            border-left: 3px solid #2563eb;
         }
 
         .job-item h4 {
@@ -225,7 +236,7 @@
         }
 
         .status-scheduled {
-            background: #3b82f6;
+            background: #2563eb;
             color: #fff;
         }
 
@@ -282,7 +293,7 @@
 
         .btn {
             padding: 10px 20px;
-            background: #ff4b4b;
+            background: #2563eb;
             color: #fff;
             border: none;
             border-radius: 6px;
@@ -293,7 +304,7 @@
         }
 
         .btn:hover {
-            background: #ff3333;
+            background: #1e40af;
         }
 
         .chart-container {
@@ -335,6 +346,10 @@
 </head>
 <body>
     <div class="sidebar">
+        <div style="margin-bottom: 30px; padding-bottom: 20px; border-bottom: 1px solid #2a2d35;">
+            <h4 style="color: #2563eb; font-size: 14px; font-weight: 600; margin-bottom: 5px;">BRUKD CONSULTANCY</h4>
+            <p style="color: #9ca3af; font-size: 12px;">Practical, Profitable & Responsible AI</p>
+        </div>
         <h1>FieldOps AI</h1>
         <h2>Smart Scheduler & Job-Costing Platform</h2>
         
@@ -343,6 +358,10 @@
             <p>12 Technicians</p>
             <p>50+ Active Jobs</p>
             <p>HVAC & Electrical Services</p>
+            <div style="margin-top: 10px;">
+                <span class="badge">PIPEDA-Compliant</span>
+                <span class="badge">CDAP Eligible</span>
+            </div>
         </div>
 
         <div class="sidebar-section">
@@ -495,6 +514,19 @@
                 </div>
             </div>
         </div>
+
+        <div class="footer-banner">
+            <h3>Brukd Consultancy</h3>
+            <p>Practical, Profitable & Responsible AI for Canadian Small and Medium Businesses</p>
+            <p style="margin-top: 15px;">
+                <a href="https://brukdconsultancy.com/" target="_blank" style="color: #60a5fa; text-decoration: none;">Visit Brukd Consultancy</a> | 
+                <a href="https://brukdconsultancy.com/contact" target="_blank" style="color: #60a5fa; text-decoration: none;">Contact Us</a> | 
+                <a href="https://github.com/DanielDemoz/fieldops-ai" target="_blank" style="color: #60a5fa; text-decoration: none;">View Repository</a>
+            </p>
+            <p style="font-size: 12px; color: #60a5fa; margin-top: 10px;">
+                PIPEDA-Compliant • CDAP Funding Eligible • Canada-based Support
+            </p>
+        </div>
     </div>
 
     <script>
@@ -595,7 +627,7 @@
                 x: sampleCrew.map(c => c.name),
                 y: sampleCrew.map(c => c.jobs),
                 type: 'bar',
-                marker: { color: '#ff4b4b' }
+                marker: { color: '#2563eb' }
             };
             Plotly.newPlot('crew-chart', [trace], {
                 title: 'Jobs Completed (Last 30 Days)',
@@ -641,7 +673,7 @@
                 y: [35000, 42000, 38500],
                 type: 'scatter',
                 mode: 'lines+markers',
-                line: { color: '#ff4b4b', width: 3 },
+                line: { color: '#2563eb', width: 3 },
                 marker: { size: 10 }
             };
             Plotly.newPlot('revenue-chart', [revenueTrace], {
@@ -702,7 +734,7 @@
                 }),
                 y: Array.from({length: 30}, () => Math.floor(Math.random() * 5) + 1),
                 type: 'bar',
-                marker: { color: '#ff4b4b' }
+                marker: { color: '#2563eb' }
             };
             Plotly.newPlot('completion-trend-chart', [completionTrace], {
                 title: 'Daily Jobs Completed (Last 30 Days)',

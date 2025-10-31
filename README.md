@@ -1,6 +1,10 @@
 # FieldOps AI - Smart Scheduling & Job Costing Platform
 
-A comprehensive field service management platform designed for small to medium-sized construction, HVAC, electrical, plumbing, and home-repair companies.
+A comprehensive field service management platform designed for Canadian small and medium-sized construction, HVAC, electrical, plumbing, and home-repair companies.
+
+**Developed by [Brukd Consultancy](https://brukdconsultancy.com/) - Practical, Profitable & Responsible AI for Canadian SMBs**
+
+PIPEDA-Compliant | CDAP Funding Eligible | Canada-based Support
 
 ## Live Demo
 
