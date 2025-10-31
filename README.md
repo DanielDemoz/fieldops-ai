@@ -8,28 +8,9 @@ PIPEDA-Compliant | CDAP Funding Eligible | Canada-based Support
 
 ## Live Demo
 
-**View the client demonstration page:**
+**View the interactive demo:** [https://danieldemoz.github.io/fieldops-ai/demo.html](https://danieldemoz.github.io/fieldops-ai/demo.html)
 
-### Option 1: View Interactive Demo via GitHub Pages (Recommended)
-Once GitHub Pages is enabled, visit:
-- **Interactive Demo:** `https://danieldemoz.github.io/fieldops-ai/demo.html`
-
-This interactive demo replicates the Streamlit dashboard experience with live charts, job scheduling, crew management, inventory tracking, financials, and analytics - all running directly in your browser!
-
-### Option 2: Download and Open Locally
-1. Click on `index.html` in the repository
-2. Click the "Raw" button (top right)
-3. Right-click on the page and select "Save As" to download
-4. Open the downloaded `index.html` file in your web browser
-
-### Option 3: Clone and Open
-```bash
-git clone https://github.com/DanielDemoz/fieldops-ai.git
-cd fieldops-ai
-# Then open index.html in your browser
-```
-
-The HTML demo showcases the platform's key features, workflow, and capabilities with a professional client-facing presentation.
+Experience the full dashboard with live charts, job scheduling, crew management, inventory tracking, financials, and analytics.
 
 ## Overview
 
@@ -37,20 +18,12 @@ FieldOps AI streamlines operations from initial booking through invoicing and ca
 
 ## Key Features
 
-### Booking & Scheduling
-- Automated job intake with intelligent classification
-- Optimized daily scheduling based on technician availability and location
-- Route optimization to minimize travel time and maximize efficiency
-
-### Operations Management
-- Real-time technician tracking and crew management
-- Inventory management with automated reorder alerts
-- Time tracking with GPS verification and anomaly detection
-
-### Financial Management
-- Automated invoice generation with labor and materials costing
-- Cash flow forecasting and trend analysis
-- Performance metrics and KPI tracking
+- **Intelligent Scheduling** - Automated job scheduling with route optimization
+- **Time & Attendance Tracking** - GPS-verified time tracking with anomaly detection
+- **Inventory Management** - Parts tracking with automated reorder alerts
+- **Automated Invoicing** - Professional invoice generation with PDF export
+- **Cash Flow Analytics** - Predictive forecasting and trend analysis
+- **Performance Metrics** - Comprehensive KPIs and analytics dashboard
 
 ## Technology Stack
 
@@ -94,21 +67,9 @@ The dashboard will be available at `http://localhost:8501`
 
 ### Quick Start (Windows)
 
-Use the provided batch file:
 ```bash
 start_dashboard.bat
 ```
-
-This automatically checks for demo data and starts the dashboard.
-
-## Demo Company
-
-The system includes pre-loaded sample data for demonstration purposes featuring:
-- 30 sample customers
-- 12 technicians across multiple specialties
-- 50+ work orders with various statuses
-- Inventory tracking
-- Financial records and invoices
 
 ## Project Structure
 
@@ -122,30 +83,10 @@ fieldops-ai/
 └── config.py           # Configuration settings
 ```
 
-## Documentation
-
-All setup instructions are included in the Getting Started section above.
-
-## Development
-
-### Running Tests
-
-```bash
-python -m pytest tests/
-```
-
-### Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
 ## License
 
 This project is proprietary software developed by Brukd Consultancy. All rights reserved.
 
 ## Contact
 
-For inquiries, please contact Brukd Consultancy.
+For inquiries, please contact [Brukd Consultancy](https://brukdconsultancy.com/).
