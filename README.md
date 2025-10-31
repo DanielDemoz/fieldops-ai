@@ -63,6 +63,15 @@ streamlit run app/dashboard.py
 
 The dashboard will be available at `http://localhost:8501`
 
+### Quick Start (Windows)
+
+Use the provided batch file:
+```bash
+start_dashboard.bat
+```
+
+This automatically checks for demo data and starts the dashboard.
+
 ## Demo Company
 
 The system includes pre-loaded sample data for demonstration purposes featuring:
@@ -87,8 +96,7 @@ fieldops-ai/
 ## Documentation
 
 - [Quick Start Guide](QUICKSTART.md)
-- [Demo Information](DEMO_INFO.md)
-- [Troubleshooting](TROUBLESHOOTING.md)
+- [Deployment Guide](DEPLOYMENT.md)
 
 ## Development
 
