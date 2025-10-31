@@ -5,10 +5,25 @@ A comprehensive field service management platform designed for small to medium-s
 ## Live Demo
 
 **View the client demonstration page:**
-- [Interactive HTML Demo](index.html) - Professional presentation of FieldOps AI features
-- [Alternative Demo Page](demo.html) - Additional demonstration content
 
-The HTML demo showcases the platform's key features, workflow, and capabilities. Open `index.html` in your browser to view the client-facing presentation.
+### Option 1: View via GitHub Pages (Recommended)
+If GitHub Pages is enabled, visit:
+- **Demo Site:** `https://danieldemoz.github.io/fieldops-ai/` (or your GitHub Pages URL)
+
+### Option 2: Download and Open Locally
+1. Click on `index.html` in the repository
+2. Click the "Raw" button (top right)
+3. Right-click on the page and select "Save As" to download
+4. Open the downloaded `index.html` file in your web browser
+
+### Option 3: Clone and Open
+```bash
+git clone https://github.com/DanielDemoz/fieldops-ai.git
+cd fieldops-ai
+# Then open index.html in your browser
+```
+
+The HTML demo showcases the platform's key features, workflow, and capabilities with a professional client-facing presentation.
 
 ## Overview
 
