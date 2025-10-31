@@ -2,6 +2,14 @@
 
 A comprehensive field service management platform designed for small to medium-sized construction, HVAC, electrical, plumbing, and home-repair companies.
 
+## Live Demo
+
+**View the client demonstration page:**
+- [Interactive HTML Demo](index.html) - Professional presentation of FieldOps AI features
+- [Alternative Demo Page](demo.html) - Additional demonstration content
+
+The HTML demo showcases the platform's key features, workflow, and capabilities. Open `index.html` in your browser to view the client-facing presentation.
+
 ## Overview
 
 FieldOps AI streamlines operations from initial booking through invoicing and cash flow management. The platform automates scheduling, optimizes technician routing, tracks inventory, monitors time and attendance, and generates invoices while providing actionable financial insights.
