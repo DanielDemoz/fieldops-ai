@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FieldOps AI - Interactive Demo | Daniel S. Demoz</title>
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
     <style>
         * {
             margin: 0;
@@ -745,9 +745,11 @@
             }, { responsive: true });
         }
 
-        // Initialize
+        // Initialize all data views on load
         window.onload = function() {
             updateSchedule();
+            updateCrew();
+            updateInventory();
         };
     </script>
 </body>
