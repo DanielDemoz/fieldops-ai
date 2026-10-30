@@ -345,7 +345,12 @@
     </style>
 </head>
 <body>
-    <div class="sidebar">
+    <div style="background:#172b38;color:#f5f2ec;font:500 13px/1.4 system-ui,sans-serif;padding:9px 16px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap">
+  <span>Daniel S. Demoz · Responsible AI in practice</span>
+  <span><a href="https://www.danieldemoz.com/projects" style="color:#f5f2ec">All projects</a> · <a href="https://github.com/DanielDemoz/fieldops-ai" style="color:#f5f2ec">Code</a></span>
+</div>
+<div style="background:#f6ead9;color:#5c3a17;font:14px/1.5 system-ui,sans-serif;padding:10px 16px;text-align:center">Prototype with sample data. Jobs, crews, costs and charts on this page are made up for demonstration.</div>
+<div class="sidebar">
         <div style="margin-bottom: 30px; padding-bottom: 20px; border-bottom: 1px solid #2a2d35;">
             <h4 style="color: #2563eb; font-size: 14px; font-weight: 600; margin-bottom: 5px;">DD Demo</h4>
             <p style="color: #9ca3af; font-size: 12px;">Daniel S. Demoz</p>
@@ -731,12 +736,12 @@
                     date.setDate(date.getDate() - 29 + i);
                     return date.toISOString().split('T')[0];
                 }),
-                y: Array.from({length: 30}, () => Math.floor(Math.random() * 5) + 1),
+                y: [3, 2, 4, 3, 1, 0, 0, 4, 3, 5, 2, 3, 1, 0, 3, 4, 2, 3, 4, 1, 0, 2, 3, 5, 4, 2, 1, 0, 3, 4], // fixed sample values
                 type: 'bar',
                 marker: { color: '#2563eb' }
             };
             Plotly.newPlot('completion-trend-chart', [completionTrace], {
-                title: 'Daily Jobs Completed (Last 30 Days)',
+                title: 'Daily Jobs Completed, Last 30 Days (sample data)',
                 paper_bgcolor: '#1e2129',
                 plot_bgcolor: '#262730',
                 font: { color: '#fff' },

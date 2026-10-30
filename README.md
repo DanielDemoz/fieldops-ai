@@ -15,7 +15,17 @@ Developed a FastAPI backend with Streamlit dashboard covering intelligent job sc
 - Unified workflow from booking through invoicing and analytics
 - Route optimization via OR-Tools vehicle routing
 - Predictive cash-flow and KPI dashboards for operational decisions
-- PIPEDA-compliant design positioning for Canadian SMB market
+- Designed with Canadian privacy expectations (PIPEDA) in mind; not legally reviewed
+- The web demo uses sample data only
+
+## Responsible AI, following the Reliable AI Adoption Framework
+
+1. **Business problem:** help small trade businesses schedule crews, cost jobs and see cash flow in one place.
+2. **Data readiness:** the demo runs on made-up jobs, crews and costs. Forecasts need the business's own history before they mean anything.
+3. **Governance and risk:** schedules affect workers' hours and pay. Optimized routes and assignments should be reviewed by a dispatcher.
+4. **Technology and tools:** FastAPI, Streamlit and OR-Tools vehicle routing. The rules are inspectable, not a black box.
+5. **People and adoption:** dispatchers and owners make the final call on every schedule and quote.
+6. **Outcomes and monitoring:** compare forecast cash balance with actual each month, and check that work is shared fairly across crews.
 
 ## Tech stack
 
