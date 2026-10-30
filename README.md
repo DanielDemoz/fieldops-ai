@@ -49,4 +49,4 @@ Open http://localhost:8501
 
 **Interactive demo:** https://danieldemoz.github.io/fieldops-ai/demo.html
 
-Developed by Daniel S. Demoz — asbdansi9@gmail.com | [brukdconsultancy.com](https://brukdconsultancy.com)
+Developed by Daniel S. Demoz, asbdansi9@gmail.com | [brukdconsultancy.com](https://brukdconsultancy.com)
